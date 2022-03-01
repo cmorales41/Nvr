@@ -1,0 +1,300 @@
+body{
+	background-image: url(./img/fondo.png);
+	background-size:900px;
+	
+	margin: 0px;
+	padding-top: 150px;
+	background-attachment: fixed;
+}
+
+
+header{
+	background-color: black;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
+.what{
+	display: block;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	height: 60px;
+	width: 60px;
+	object-fit: cover;
+	
+	border-radius: 40px;
+	align-content: center;
+
+	
+}
+
+.wt{
+	height: 55px;
+	width: 55px;
+	object-fit: scale-down;
+	margin: 0px;
+	min-width: 0px;i
+}
+
+
+
+.nav_responsive_ul{
+display: none;
+}
+
+.boton_menu{
+	display: none;
+}
+.nav_ul{
+	background-color: deepskyblue;
+	color: whitesmoke;
+	padding: 15px;
+	padding-bottom: 3px;
+	font-size: 20px;
+	height: 40px;
+	margin: 2px;
+	margin-bottom: 2px;
+	border-radius: 4px;
+}
+
+
+.nav_li{
+	display:  inline-block;
+	
+
+}
+.nav_li a{
+	color:  whitesmoke;
+	text-decoration: none;
+	padding: 15px;
+}
+
+
+.nav_li :hover {
+	color: blueviolet;
+}
+
+.nav_li i{
+	width: 20px;
+	text-align: right;
+	margin-right: 4px;
+}
+.container{
+	background: lightskyblue;
+	animation-name: fondo;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	border-radius: 4px;
+	display:block;
+	
+}
+@keyframes fondo{
+	0%{background: lightskyblue;}
+	100%{background: blueviolet;}
+}
+
+.caja{
+	font-family:sans-serif;
+	font-size: 90px;
+	color: whitesmoke;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	animation-name: desplazarse;
+	animation-duration: 1s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:1;
+	animation-direction: alternate;	
+	animation-fill-mode: forwards;
+	animation-delay: 0.5s;
+	display: block;
+}
+
+
+@keyframes desplazarse{
+
+0% {
+margin-left: 0%;
+}
+100%{margin-left: 40%;}
+
+}
+
+
+.container_flex{
+	display: flex;
+	padding: 5px;
+	margin:  7px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+
+.caja_grilla{
+	display: flex;
+	margin: 6px;
+	background-color: seagreen;
+	border-radius: 4px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-height: 125px;
+	min-width: 250px;
+	flex: 1;
+	justify-content: space-evenly;
+	align-content: center;
+
+
+}
+
+
+.item{
+	width: 120px;
+	height: 240px;
+	background-color: black;
+	display: flex;
+	margin: 10px;
+	border-radius: 4px;
+}
+
+img{
+	object-fit: cover;
+	padding: 3px;
+	min-width: 114px;
+	height: 234px;
+	background-attachment: ;
+}
+.item:hover{
+	background-color: deepskyblue;
+}
+.orange{
+	width: 360px;
+	height: 260px;
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: whitesmoke;
+}
+
+
+
+
+@media only screen and (max-width: 600px)
+{
+
+.nav_ul{
+	display: none;
+    }
+
+.boton_menu{
+	display:block;
+	position:fixed;
+	right: 0;
+	top: 0;
+	font-size: 24px;
+	padding: 4px;
+	color: whitesmoke;
+
+}
+
+.nav_responsive_ul:hover{
+
+	margin-top: 42px;
+	background-color: deepskyblue;
+	transition-duration: 1s;
+}
+.nav{
+	padding: 0;
+	margin: 0;
+}
+
+.nav_responsive_ul{
+	display: block;
+	color: whitesmoke;
+	list-style-type: none;
+	padding: 6px;
+	padding-top: 4px;
+	font-size: 16px;
+	margin: 0px;
+	border-radius: 4px;
+	width: 100%;
+	margin-top: -63px;
+}
+
+.nav_responsive_li{
+
+	margin: 5px;
+}
+
+
+
+.nav_responsive_li{
+	margin: 4px;
+}
+
+
+.nav_responsive_li:hover > a {
+	color: blueviolet;
+}
+.nav_responsive_li i{
+	width: 30px;
+	box-sizing: border-box;
+	text-align: right;
+	margin-right: 4px;
+}
+
+.nav_responsive_li a{
+	color:  whitesmoke;
+	text-decoration: none;
+
+}
+
+.container{
+	width: 100%;
+	position: fixed;
+
+	animation-name: fondo;
+	animation-duration: 2s;
+	animation-fill-mode: forwards;
+	border-radius: 4px;
+	height: 50px;
+}
+
+@keyframes fondo{
+	0%{background-color: blueviolet;}
+	100%{background-color: blueviolet;}
+}
+
+
+.caja{
+	font-family:sans-serif;
+	font-size: 40px;
+	color: whitesmoke;
+	height: 50px;
+	width: 80%;
+	position: fixed;
+	animation-name: desplazarse;
+	animation-duration: 1,5s;
+	animation-timing-function: ease-in;
+	animation-iteration-count:1;
+	animation-direction: alternate;	
+	animation-fill-mode: forwards;
+	animation-delay: 1s;
+
+	
+}
+
+
+header{
+	background-color: blueviolet;
+}
+
+body{
+	padding-top: 40px;
+}
+}
