@@ -1,6 +1,5 @@
 body{
-	background-image: url(./img/fondo.png);
-	background-size:900px;
+	background-color: #FFFFFF;
 	
 	margin: 0px;
 	padding-top: 150px;
@@ -51,8 +50,8 @@ display: none;
 	display: none;
 }
 .nav_ul{
-	background-color: deepskyblue;
-	color: whitesmoke;
+	background-color: #5BC8AC;
+	color: #E6EFED;
 	padding: 15px;
 	font-size: 20px;
 	height: 100%;
@@ -68,14 +67,14 @@ display: none;
 
 }
 .nav_li a{
-	color:  whitesmoke;
+	color:  #E6EFED;
 	text-decoration: none;
 	padding: 15px;
 }
 
 
 .nav_li :hover {
-	color: blueviolet;
+	color: #2A3132;
 }
 
 .nav_li i{
@@ -84,7 +83,7 @@ display: none;
 	margin-right: 4px;
 }
 .container{
-	background: lightskyblue;
+	background: #5BC8AC;
 	animation-name: fondo;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
@@ -93,14 +92,14 @@ display: none;
 	
 }
 @keyframes fondo{
-	0%{background: lightskyblue;}
-	100%{background: blueviolet;}
+	0%{background: #2A3132;}
+	100%{background: #2A3132;}
 }
 
 .caja{
 	font-family:sans-serif;
 	font-size: 90px;
-	color: whitesmoke;
+	color: #E6EFED;
 	height: 100px;
 	width: 100px;
 	position: relative;
@@ -137,7 +136,7 @@ margin-left: 0%;
 .caja_grilla{
 	display: flex;
 	margin: 6px;
-	background-color: #A6C6C6;
+	
 	border-radius: 4px;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -150,10 +149,14 @@ margin-left: 0%;
 
 }
 
+h2{
+	text-align: center;
+}
+
 .caja_grilla2{
 	display: flex;
 	margin: 6px;
-	background-color: antiquewhite;
+	background-color: #5BC8AC;
 	border-radius: 4px;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -184,7 +187,7 @@ img{
 	background-attachment: ;
 }
 .item:hover{
-	background-color: deepskyblue;
+	background-color: #5BC8AC;
 }
 .orange{
 	width: 360px;
@@ -195,6 +198,13 @@ img{
 	color: black;
 }
 
+.orange1{
+	width: 360px;
+	padding: 15px;
+	font-family: sans-serif;
+	font-size: 16px;
+	color: black;
+}
 
 
 
@@ -212,14 +222,14 @@ img{
 	top: 0;
 	font-size: 24px;
 	padding: 4px;
-	color: whitesmoke;
+	color: #E6EFED;
 
 }
 
 .nav_responsive_ul:hover{
 
 	margin-top: 42px;
-	background-color: deepskyblue;
+	background-color: #5BC8AC;
 	transition-duration: 1s;
 }
 .nav{
@@ -229,7 +239,7 @@ img{
 
 .nav_responsive_ul{
 	display: block;
-	color: whitesmoke;
+	color: #E6EFED;
 	list-style-type: none;
 	padding: 6px;
 	padding-top: 4px;
@@ -253,7 +263,7 @@ img{
 
 
 .nav_responsive_li:hover > a {
-	color: blueviolet;
+	color: #2A3132;
 }
 .nav_responsive_li i{
 	width: 30px;
@@ -263,7 +273,7 @@ img{
 }
 
 .nav_responsive_li a{
-	color:  whitesmoke;
+	color:  #E6EFED;
 	text-decoration: none;
 
 }
@@ -280,15 +290,15 @@ img{
 }
 
 @keyframes fondo{
-	0%{background-color: blueviolet;}
-	100%{background-color: blueviolet;}
+	0%{background-color: #2A3132;}
+	100%{background-color: #2A3132;}
 }
 
 
 .caja{
 	font-family:sans-serif;
 	font-size: 40px;
-	color: whitesmoke;
+	color: #E6EFED;
 	height: 50px;
 	width: 80%;
 	position: fixed;
@@ -305,7 +315,7 @@ img{
 
 
 header{
-	background-color: blueviolet;
+	background-color: #2A3132;
 }
 
 body{
