@@ -16,7 +16,9 @@ header{
     margin-right: 0;
 
 }
-
+p{
+	text-align: center;
+}
 .what{
 	display: block;
 	position: fixed;
@@ -152,13 +154,14 @@ margin-left: 0%;
 
 h2{
 	text-align: center;
-	color:#C4DFE6 ;
+	color:#000000 ;
 }
 
 .caja_grilla2{
 	display: flex;
 	margin: 6px;
-	background-color:#BA5536 ;
+	border-style: solid;
+	border-color: #FF420E;
 	border-radius: 4px;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -213,7 +216,7 @@ img{
 	display: none;
 }
 
-@media only screen and (max-width: 760px)
+@media only screen and (max-width: 769px)
 {
 
 .nav_ul{
@@ -250,7 +253,7 @@ img{
 	padding-top: 4px;
 	font-size: 16px;
 	margin: 0px;
-	border-radius: 4px;
+	border-radius: 10px;
 	width: 100%;
 	margin-top: -83px;
 }
@@ -335,21 +338,23 @@ body{
    padding: 5px;
    text-align: center;
 	writing-mode: vertical-rl;
-	background-color: whitesmoke;
+	text-orientation: upright;
+	background-color: #2A3132;
 	border-radius: 10px;
 
 }
 
 .tr{
-	color: #BA5536;
+	color: #E6EFED;
 	text-decoration: none;
 	height: 10px;
 }
 .caja_grilla2{
 	display: flex;
 	margin: 6px;
-	padding-top: 35px;
-	background-color: #BA5536;
+	padding-top: 45px;
+	border-style: solid;
+	border-color: #FF420E;
 	border-radius: 4px;
 	flex-direction: row;
 	flex-wrap: wrap;
