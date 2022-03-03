@@ -354,7 +354,9 @@ body{
 	margin: 6px;
 	padding-top: 45px;
 	border-style: solid;
-	border-color: #FF420E;
+	border-right: 0px;
+	border-left: 0px;
+	border-color: #5BC8AC;
 	border-radius: 4px;
 	flex-direction: row;
 	flex-wrap: wrap;
