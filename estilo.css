@@ -36,7 +36,6 @@ header{
 	margin-top: 30px;
 
 	height: 450px;
-	width: 750px;
 	border-radius: 4PX;
 	
 
@@ -55,7 +54,7 @@ p{
 
 .orange{
 	align-items: center;
-	width: 420px;
+	min-width: 300px;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
@@ -160,11 +159,10 @@ margin-left: 0%;
 .caja_grilla{
 	display: flex;
 	margin: 6px;
-	
+	min-width: 300px;
 	border-radius: 4px;
 	flex-direction: row;
 	flex-wrap: wrap;
-	min-width: 380px;
 	flex: 1;
 	justify-content: space-evenly;
 	align-content: center;
@@ -184,7 +182,7 @@ h2{
 	flex-direction: row;
 	flex-wrap: wrap;
 	min-height: 125px;
-	min-width: 350px;
+	min-width: 300px;
 	flex: 1;
 	justify-content: space-evenly;
 	align-content: center;
@@ -196,7 +194,7 @@ background-attachment: fixed;
 }
 
 .item img{
-	width: 200px;
+	width: 160px;
 	height: 340px;
 	display: flex;
 	object-fit: cover;
@@ -208,7 +206,7 @@ margin: 4px;
 
 
 .item1{
-	width: 100px;
+	width: 90px;
 	height: 340px;
 	display: flex;
 	margin: 5px;
@@ -217,7 +215,7 @@ margin: 4px;
 	color: #000000;
 	align-content: center;
 font-family: sans-serif;
-	font-size: 16px;
+	font-size: 12px;
 	text-align: center;
 	font-weight: bold;
 }
@@ -228,7 +226,7 @@ font-family: sans-serif;
 	flex-direction: row;
 	flex-wrap: wrap;
 	min-height: 725px;
-	min-width: 400px;
+	min-width: 300px;
 	flex: 1;
 background-image: url(img/c.jpg);
 background-size: cover;
@@ -237,7 +235,7 @@ background-attachment: fixed;
 color: #E6EFED ;
 align-content: center;
 font-family: sans-serif;
-	font-size: 36px;
+	font-size: 26px;
 	text-align: center;
 	justify-content: space-evenly;
 }
@@ -306,8 +304,8 @@ font-family: sans-serif;
 	font-size: 16px;
 	margin: 0px;
 	border-radius: 10px;
-	width: 100%;
-	margin-top: -83px;
+	min-width: 300px;
+	margin-top: -123px;
 }
 
 .nav_responsive_li{
@@ -339,9 +337,10 @@ font-family: sans-serif;
 }
 
 .container{
-	width: 100%;
+	
 	position: fixed;
-
+background-color: #2A3132;
+width: 100%;
 	animation-name: fondo;
 	animation-duration: 2s;
 	animation-fill-mode: forwards;
@@ -360,7 +359,6 @@ font-family: sans-serif;
 	font-size: 40px;
 	color: #E6EFED;
 	height: 50px;
-	width: 80%;
 	position: fixed;
 	animation-name: desplazarse;
 	animation-duration: 1,5s;
@@ -411,7 +409,7 @@ body{
 	flex-direction: row;
 	flex-wrap: wrap;
 	min-height: 125px;
-	min-width: 400px;
+	min-width: 300px;
 	max-width: 800px;
 	flex: 1;
 	justify-content: space-evenly;
@@ -423,8 +421,8 @@ body{
 .mcor video{
 	margin-top: 50px;
 margin-left: 20px;
-	height: 240px;
-	width: 350px;
+    height: 220px;
+width: 300px;
 	border-radius: 4px;
 	
 
