@@ -387,8 +387,8 @@ margin: 4px;
 
 .item2 img:hover
 {
-	width: 300px;
-	height: 300px;
+	transform:scale(1.5,1.3) ;
+	
 }
 
 
