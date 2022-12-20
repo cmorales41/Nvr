@@ -94,7 +94,7 @@ p{
 .mcor video{
 	margin-top: 20px;
     justify-content: center;
-	height: 450px;
+	height: 600px;
 	border-radius: 4PX;
 	
 }
@@ -418,7 +418,7 @@ margin: 4px;
 	min-height: 625px;
 	min-width: 300px;
 	flex: 1;
-background-image: url(img/c.jpg);
+background-image: url(img/das.jpeg);
 background-size: cover;
 background-position: center;
 background-attachment: fixed;
